@@ -1,7 +1,6 @@
 package ua.edu.ucu.apps;
 
 public enum AuthMethod {
-
-    FACEBOOK, TWITTER
-
+    FACEBOOK,
+    TWITTER
 }
