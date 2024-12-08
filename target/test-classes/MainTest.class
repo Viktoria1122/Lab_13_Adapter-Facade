@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import ua.edu.ucu.apps.Main;
+
+class MainTest {
+   MainTest() {
+   }
+
+   @Test
+   void testMainExecution() {
+      Main.main(new String[0]);
+      Assertions.assertDoesNotThrow(() -> {
+         Main.main(new String[0]);
+      });
+   }
+}
