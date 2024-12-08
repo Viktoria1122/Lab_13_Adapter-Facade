@@ -1,6 +1,8 @@
 package ua.edu.ucu.apps;
 
 import java.time.LocalDateTime;
+import ua.edu.ucu.apps.AuthMethod;
+
 
 public class Main {
     public static void main(String[] args) {
